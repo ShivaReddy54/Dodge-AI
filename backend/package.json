@@ -1,0 +1,15 @@
+{
+  "name": "o2c-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import": "node scripts/import.mjs",
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "sql.js": "^1.12.0"
+  }
+}
