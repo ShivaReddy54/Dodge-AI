@@ -1,15 +1,21 @@
 # Dependencies
 backend/node_modules/
 frontend/node_modules/
+node_modules/
 
 # Build output
 frontend/dist/
+dist/
 
 # Vite cache
 frontend/.vite/
 
 # Generated SQLite database (rebuild with: cd backend && npm run import)
 backend/data/o2c.db
+data/o2c.db
+
+# Vercel
+.vercel/
 
 # Logs and debug
 *.log
